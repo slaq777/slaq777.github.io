@@ -21,7 +21,7 @@
 		<meta property="og:image" content="https://slaq777.github.io/images/logo.png"/>
 		<meta property="og:site_name" content="SiteHelper"/>
 		<meta property="og:description" content="Поможет отслеживать любую динамическую информацию на сайте, сделать поиск по сайту."/>
-
+		
 	</head>
 	<body>
 		<!-- Header -->
@@ -31,7 +31,10 @@
 						<i style="font-size: 45px" class="fa fa-braille"></i>
 					</span>
 					<h1 tkey="title2"><strong>SiteHelper</strong></h1>
-					<button tkey="install" onclick="chrome.webstore.install() " id="install-button" class="button icon fa-chrome">Установить</button>
+					
+					<div id="install_button">
+						<button tkey="install" onclick="chrome.webstore.install()" id="install-button" class="button icon fa-chrome">Установить</button>
+					</div>
 					
 					<p tkey="description">С помощью SiteHelper вы можете отслеживать текст, числа, <br/> любую динамически изменяющуюся информацию на сайтах</p>
 					<p><h6 tkey="exemple">Например: цену на товар в интернет магазине, количество оставшихся билетов на концерт любимой группы, <br/> новые отзывы на пост, выход новых серии любимого сериала, курс валюты и т.д.</h6></p>
@@ -144,6 +147,12 @@
 				</ul>
 			</section>
 
+		<script>
+            if(!chrome.webstore) {
+                document.getElementById('install_button').innerHTML = '<a tkey="install" href="https://addons.opera.com/ru/" id="install-button" class="button icon fa-chrome">Установить</a>';
+            }
+		</script>
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/lang.js"></script>
@@ -152,6 +161,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			
 	</body>
 </html>
