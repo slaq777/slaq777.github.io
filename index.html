@@ -33,7 +33,7 @@
 					<h1 tkey="title2"><strong>SiteHelper</strong></h1>
 					
 					<div id="install_button">
-						<button tkey="install" onclick="chrome.webstore.install()" id="install-button" class="button icon fa-chrome">Установить</button>
+						<button tkey="install" onclick="yaCounter46554972.reachGoal('install'); chrome.webstore.install()" id="install-button" class="button icon fa-chrome">Установить</button>
 					</div>
 					
 					<p tkey="description">С помощью SiteHelper вы можете отслеживать текст, числа, <br/> любую динамически изменяющуюся информацию на сайтах</p>
@@ -147,13 +147,13 @@
 				</ul>
 			</section>
 
-		<script>
-            if(!chrome.webstore) {
-                document.getElementById('install_button').innerHTML = '<a tkey="install" href="https://addons.opera.com/ru/" id="install-button" class="button icon fa-chrome">Установить</a>';
-            }
-		</script>
+			<script>
+				if(!chrome.webstore) {
+					document.getElementById('install_button').innerHTML = '<a tkey="install" href="https://addons.opera.com/ru/" id="install-button" class="button icon fa-chrome">Установить</a>';
+				}
+			</script>
 		
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/lang.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -162,35 +162,35 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
-		<!-- Yandex.Metrika counter -->
-		<script type="text/javascript" >
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter46554972 = new Ya.Metrika({
-                            id:46554972,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true,
-                            webvisor:true
-                        });
-                    } catch(e) { }
-                });
-
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
-		</script>
-		<noscript><div><img src="https://mc.yandex.ru/watch/46554972" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-		<!-- /Yandex.Metrika counter -->
+			<!-- Yandex.Metrika counter -->
+			<script type="text/javascript" >
+				(function (d, w, c) {
+					(w[c] = w[c] || []).push(function() {
+						try {
+							w.yaCounter46554972 = new Ya.Metrika({
+								id:46554972,
+								clickmap:true,
+								trackLinks:true,
+								accurateTrackBounce:true,
+								webvisor:true
+							});
+						} catch(e) { }
+					});
+	
+					var n = d.getElementsByTagName("script")[0],
+						s = d.createElement("script"),
+						f = function () { n.parentNode.insertBefore(s, n); };
+					s.type = "text/javascript";
+					s.async = true;
+					s.src = "https://mc.yandex.ru/metrika/watch.js";
+	
+					if (w.opera == "[object Opera]") {
+						d.addEventListener("DOMContentLoaded", f, false);
+					} else { f(); }
+				})(document, window, "yandex_metrika_callbacks");
+			</script>
+			<noscript><div><img src="https://mc.yandex.ru/watch/46554972" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+			<!-- /Yandex.Metrika counter -->
 			
 	</body>
 </html>
