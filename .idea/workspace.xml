@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f7f33cd-1743-4427-9318-7f60c1a80cda" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/ru.json" afterPath="$PROJECT_DIR$/lang/ru.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="ru.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/ru.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -302,12 +301,12 @@
       <workItem from="1510676586173" duration="10000" />
       <workItem from="1510941815048" duration="4500000" />
       <workItem from="1510964439159" duration="1000" />
-      <workItem from="1511005502840" duration="70000" />
+      <workItem from="1511005502840" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48404000" />
+    <option name="totallyTimeSpent" value="48449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -778,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/ru.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
       </provider>
