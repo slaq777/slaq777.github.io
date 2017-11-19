@@ -21,13 +21,17 @@
 	<body>
 		<!-- Header -->
 			<section id="header" style="padding: 0px 30px; display: flex; justify-content: space-between; height: 110px;">
-					<div>
-						<button tkey="install" onclick="yaCounter46554972.reachGoal('install'); chrome.webstore.install()" id="install-button" class="button icon fa-chrome">Установить</button><br/>
-						<a tkey="install_from_google" href="https://chrome.google.com/webstore/detail/ibamclpibpnhmkaphhemfbljmenlpbch/publish-accepted?hl=ru">Установить из google store</a>
-					</div>
-					<a style="display: inline-block; height: 100%; line-height: 5.5em;" href="/index.html">Как использовать?</a>
-					<a style="display: inline-block; height: 100%; line-height: 5.5em;" href="/help.html">Помощь</a>
-					<a style="display: inline-block; height: 100%; line-height: 5.5em;" href="/about.html">О нас</a>
+				<div style="padding: 0px 30px; display: flex; height: 110px; justify-content: space-around">
+					<a style="display: inline-block; height: 100%; border-bottom: none; width: 190px; margin: 40px 0px;" href="/index.html">Как использовать?</a>
+					<a style="display: inline-block; height: 100%; border-bottom: none; width: 190px; margin: 40px 0px;" href="/help.html">Помощь</a>
+					<a style="display: inline-block; height: 100%; border-bottom: none; width: 190px; margin: 40px 0px;" href="/about.html">О нас</a>
+				</div>
+
+				<div class="inner">
+					<p id="install_button">
+						<button tkey="install" onclick="yaCounter46554972.reachGoal('install'); chrome.webstore.install()" id="install-button" class="button icon fa-chrome">Установить <span style="color: #bcff00;font-weight: 900;">OTSLEDIT</span></button>
+					<p><a tkey="install_from_google" href="https://chrome.google.com/webstore/detail/ibamclpibpnhmkaphhemfbljmenlpbch/publish-accepted?hl=ru">Установить из google store</a></p>
+				</div>
 			</section>
 
 		<!-- One -->
