@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="53" column="171" lean-forward="false" selection-start-line="53" selection-start-column="171" selection-end-line="53" selection-end-column="171" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -93,8 +93,8 @@
       <file leaf-file-name="en.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
       <file leaf-file-name="ru.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/ru.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -114,14 +114,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Расширение SiteHelper</find>
-      <find>SiteHelper works with</find>
       <find>Например: цену на товар в интернет магазине, количество оставшихся билетов на концерт любимой группы,  новые отзывы на пост, выход новых серии любимого сери</find>
       <find>Work comfortable</find>
       <find>Work comfortableTrack more, &lt;br/&gt; spend less time</find>
       <find>По всем вопроса</find>
       <find>Will help track</find>
-      <find>description2</find>
       <find>chrome.webstore</find>
       <find>install</find>
       <find>install_button</find>
@@ -144,6 +141,9 @@
       <find>.icon.major</find>
       <find>Под</find>
       <find>О нас</find>
+      <find>Расширение</find>
+      <find>Расширение Otsledit работает</find>
+      <find>description2</find>
     </findStrings>
     <replaceStrings>
       <replace>Otsledit</replace>
@@ -208,6 +208,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sitehelper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitehelper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitehelper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,12 +343,12 @@
       <workItem from="1510676586173" duration="10000" />
       <workItem from="1510941815048" duration="4500000" />
       <workItem from="1510964439159" duration="1000" />
-      <workItem from="1511005502840" duration="11918000" />
+      <workItem from="1511005502840" duration="12036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60252000" />
+    <option name="totallyTimeSpent" value="60370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="173" y="23" width="1107" height="721" extended-state="0" />
@@ -789,22 +803,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/ru.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -827,6 +825,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/ru.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/help.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -837,18 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="53" column="171" lean-forward="false" selection-start-line="53" selection-start-column="171" selection-end-line="53" selection-end-column="171" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
