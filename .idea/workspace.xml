@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f7f33cd-1743-4427-9318-7f60c1a80cda" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="207" lean-forward="false" selection-start-line="30" selection-start-column="207" selection-end-line="30" selection-end-column="207" />
+            <state relative-caret-position="174">
+              <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Найти страницу</find>
       <find>ПОДРОБНЕЕ</find>
       <find>#header:after</find>
       <find>#header</find>
@@ -136,6 +134,7 @@
       <find>На старнице FAQ вы можете прочитать как можно отслеживать</find>
       <find>На старнице FAQ вы можете прочитать как можно отслеживать правильно на определенных с</find>
       <find>На старнице FAQ вы можете прочитать как можно отслеживать правильно на определенных</find>
+      <find>otsledit</find>
     </findStrings>
     <replaceStrings>
       <replace>Otsledit</replace>
@@ -360,12 +359,12 @@
       <workItem from="1511005502840" duration="22312000" />
       <workItem from="1511202929505" duration="561000" />
       <workItem from="1511204336526" duration="437000" />
-      <workItem from="1511210244296" duration="1506000" />
+      <workItem from="1511210244296" duration="1623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73150000" />
+    <option name="totallyTimeSpent" value="73267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1277" height="721" extended-state="6" />
@@ -835,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="207" lean-forward="false" selection-start-line="30" selection-start-column="207" selection-end-line="30" selection-end-column="207" />
+        <state relative-caret-position="174">
+          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
