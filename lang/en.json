@@ -1,6 +1,6 @@
 {
-    "title": "Otsledit - your reliable assistant in working with sites",
-    "title2": "<strong>OTSLEDIT</strong>",
+    "title": "TRACKING - your reliable assistant in working with sites",
+    "title2": "<strong>TRACKING</strong>",
     "description": "With the help of the browser extension you can track the text, numbers, <br/> any dynamically changing information on the sites.",
     "install": "Установить <span style="color: #00ffbc;font-weight: 900;">OTSLEDIT</span>",
     "more": "Learn More",
@@ -19,7 +19,7 @@
     "tracking": "Tracking",
     "tracking_d": "Move the mouse over the text that you want to track and click on it.",
     "notes": "Wait notification",
-    "notes_d": "When Otsledit detects the changes go to the cabinet and see the history of the changes.",
+    "notes_d": "When TRACKING detects the changes go to the cabinet and see the history of the changes.",
     "exemple": "For example: the price of goods in the online store, the number of tickets left for the concert of your favorite group, <br/> new feedback on the post, the release of a new series of your favorite TV series, the exchange rate, etc.",
     "email": "email: <a href='mailto:slaq7777@gmail.com'>slaq7777@gmail.com</a>",
     "install_from_google": "Install from the chrome store"
