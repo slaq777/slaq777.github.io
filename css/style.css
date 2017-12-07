@@ -131,6 +131,9 @@ p {
     .navbar-brand img {} .navbar-default {
       /*  background-color: #fff !important; */
     }
+    .home-btn{
+        font-size: 15px;
+    }
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -165,9 +168,6 @@ p {
     }
     .home_text{
         text-align: center;
-    }
-    .home-btn{
-        font-size: 15px;
     }
 }
 .home_text h1 {
