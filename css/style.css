@@ -166,7 +166,9 @@ p {
     .home_text{
         text-align: center;
     }
-
+    .home-btn{
+        font-size: 15px;
+    }
 }
 .home_text h1 {
     color: #fff;
