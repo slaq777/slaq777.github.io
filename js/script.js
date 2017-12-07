@@ -31,7 +31,7 @@ $(document).ready(function() {
                 'padding-top': '0px'
             });
             $(".navbar-default").css({
-                'background-color': 'rgba(59, 59, 59, 0.7)'
+                'background-color': 'rgba(59, 59, 59, 0.9)'
             });
         } else {
             $(".navbar").css({
