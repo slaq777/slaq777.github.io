@@ -30,6 +30,7 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    background: #F1F1F1;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -103,6 +104,9 @@ p {
     }
     .navbar-default .navbar-nav>li>a:focus {
         color: #B5B5B5;
+    }
+    .navbar-default .navbar-nav>li>a.main_link {
+        color: #ffffff!important;
     }
     .navbar-default {
         -webkit-transition: all 1s;
@@ -972,6 +976,8 @@ div.carousel-inner .item img {
     padding-bottom: 65px;
     padding-top: 65px;
     border-bottom: 3px solid #f39c12;
+    position: relative;
+    margin-top: 185px;
 }
 .copyright h2 {
     height: 0px;
@@ -1089,7 +1095,7 @@ select:-webkit-autofill {
 }
 
 .fa-bell-o {
-    color: #dcdcdc;
+    color: #d29f03;
     font-size: 30px;
 }
 
