@@ -983,7 +983,6 @@ div.carousel-inner .item img {
     padding-top: 65px;
     border-bottom: 3px solid #f39c12;
     position: relative;
-    margin-top: -154px;
 }
 .copyright h2 {
     height: 0px;
@@ -1144,10 +1143,11 @@ h3 {
     color: #ffffff!important;
 }
 
-.page, .wrapper {
+.page {
     font-family: 'Open Sans',sans-serif;
     color: #333;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 185px;
+    height: 100%;
 }
