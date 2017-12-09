@@ -1134,3 +1134,10 @@ h3 {
 .main_link {
     color: #ffffff!important;
 }
+
+.page {
+    font-family: 'Open Sans',sans-serif;
+    color: #333;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
