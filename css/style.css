@@ -94,6 +94,7 @@ p {
 .navbar-gray {
     background-color: #f1f1f1!important;
     border-bottom: 1px solid #e0e0e0;
+    opacity: 0.9;
 }
 @media(min-width:768px) {
     .navbar-default {
