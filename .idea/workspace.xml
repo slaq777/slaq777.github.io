@@ -95,8 +95,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -132,7 +132,6 @@
       <find>navbar navbar-default navbar-fixed-top</find>
       <find>.navbar-default .navbar-nav&gt;li&gt;a:focus {         color: #B5B5B5;     }</find>
       <find>navbar-nav</find>
-      <find>.navbar-default .navbar-nav&gt;li&gt;a</find>
       <find>navbar-default</find>
       <find>.bottom</find>
       <find>OTSLEDIT</find>
@@ -146,6 +145,7 @@
       <find>скачать</find>
       <find>ОТСЛЕЖИВАЙ БОЛЬШЕ -  ВРЕМЕНИ ТРАТЬ МЕНЬШЕ</find>
       <find>bottom</find>
+      <find>.navbar-default .navbar-nav&gt;li&gt;a</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/css</dir>
@@ -299,12 +299,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512674035688</updated>
       <workItem from="1512674039648" duration="8388000" />
-      <workItem from="1512685280702" duration="11885000" />
+      <workItem from="1512685280702" duration="11970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20273000" />
+    <option name="totallyTimeSpent" value="20358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -562,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
           <folding />
         </state>
       </provider>
