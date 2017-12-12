@@ -1152,3 +1152,74 @@ h3 {
     padding-bottom: 185px;
     height: 100%;
 }
+
+
+
+
+
+
+
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding-top: 12px;
+}
+
+.dropbtn
+{
+    background: url('http://www.miru-mir.info/images/en.gif') no-repeat left center;
+    padding-left: 25px;
+    width: 40px;
+}
+
+.dropbtn::after {
+    content: "";
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 16px;
+}
+
+.dropdown-content a:last-child
+{
+    background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.dropdown-content a:first-child
+{
+    background: url('http://www.miru-mir.info/images/en.gif') no-repeat left center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #8a8a8a;
+    padding: 2px 0 2px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    outline: 1px solid #ffffff
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
