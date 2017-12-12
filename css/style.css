@@ -1023,6 +1023,7 @@ select:-webkit-autofill {
     color: rgb(0, 0, 0);
 }
 .spn_hol {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
