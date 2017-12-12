@@ -54,4 +54,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+    <url>
+        <loc>http://otsledit.net/otslezhivanie-kursa-valyut.html</loc>
+        <lastmod>2017-11-29T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
 </urlset>
