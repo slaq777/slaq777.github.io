@@ -48,15 +48,15 @@ p {
     padding-top: 90px;
     padding-bottom: 50px;
 }
-.section_title h2 {
+.section_title h1 {
     text-transform: uppercase;
     text-align: center;
     position: relative;
     color: #333;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 }
-.section_title h2:after {
+.section_title h1:after {
     content: "";
     position: absolute;
     bottom: -20px;
@@ -903,8 +903,8 @@ div.carousel-inner .item img {
     padding-bottom: 70px;
     background: transparent
 }
-.subscribe .section_title h2{
-	color: #eaeaea;
+.subscribe .section_title h1{
+    color: #eaeaea;
 }
 .subscribe .section_title p{
 	color: #a4a4a4;
