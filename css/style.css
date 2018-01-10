@@ -1150,12 +1150,16 @@ h3 {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 185px;
-    height: 100%;
 }
 
+.page img {
+    width: 100%;
+    padding: 5px 0px;
+}
 
-
-
+.page p {
+    padding: 5px 0px;
+}
 
 
 
