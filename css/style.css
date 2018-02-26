@@ -197,8 +197,7 @@ p {
     font-weight: 300;
 }
 .download-btn {
-    margin-top: 90px;
-    margin-bottom: 50px
+    margin-top: 50px;
 }
 .home-btn,
 .home-btn:focus,
@@ -1232,4 +1231,26 @@ h3 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.browsers-icons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+}
+
+.browsers-icons img{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+}
+
+.help-opera {
+    color: white;
+    font-size: 10px;
 }
