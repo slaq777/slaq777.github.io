@@ -271,8 +271,6 @@ $(document).ready(function() {
      var text = $('#textareaRemoveMessage').val();
 
      $.post("http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/", {
-         dataType: "json",
-         contentType: "application/json; charset=utf-8",
          data: JSON.stringify({
              removed: 'extension',
              text: text
