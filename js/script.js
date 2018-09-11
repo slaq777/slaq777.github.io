@@ -267,23 +267,29 @@ $(document).ready(function() {
   });
 });
 
- $('#sendRemoveMessage').click(function () {
-     var text = $('#textareaRemoveMessage').val();
-     
-     $.ajax({
-         url:"http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/",
-         dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
-         data: JSON.stringify({
-             removed: 'extension',
-             text: text
-         }),
-         success:function(json){
-             // do stuff with json (in this case an array)
-             alert("Success");
-         },
-         error:function(){
-             alert("Error");
-         }
-     });
-
- });
+ // $('#sendRemoveMessage').click(function () {
+ //     var text = $('#textareaRemoveMessage').val();
+ //    
+ //     function basicAuth() {
+ //         return "Basic " + btoa("<username>:<password>");
+ //     };
+ //
+ //     $.ajax({
+ //         url: 'http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/',
+ //         data: JSON.stringify({
+ //             removed: 'extension',
+ //             text: text
+ //         }),
+ //         beforeSend: function(xhr) {
+ //             xhr.setRequestHeader("Authorization", basicAuth());
+ //         },
+ //         success: function(data) {
+ //             alert("SUCCESS");
+ //             console.log(data);
+ //         },
+ //         error: function() {
+ //             alert("FAIL");
+ //         }
+ //     });
+ //
+ // });
