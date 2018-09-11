@@ -267,7 +267,7 @@ $(document).ready(function() {
   });
 });
 
- $('#sendRemoveMessage').onclick(function () {
+ $('#sendRemoveMessage').click(function () {
      var text = $('#textareaRemoveMessage').val();
 
      $.ajax({
