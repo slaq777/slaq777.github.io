@@ -279,5 +279,10 @@ $(document).ready(function() {
              removed: 'what url',
              text: text
          })
-     });
+     }).done(function() {
+         alert( "success" );
+     }).fail(function() {
+         alert( "error" );
+     })
+
  });
