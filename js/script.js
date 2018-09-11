@@ -276,7 +276,7 @@ $(document).ready(function() {
          dataType: "json",
          contentType: "application/json; charset=utf-8",
          data: JSON.stringify({
-             removed: 'what url',
+             removed: 'extension',
              text: text
          })
      }).done(function() {
