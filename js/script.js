@@ -1,59 +1,3 @@
-//LOADER/SPINNER
-// $(window).bind("load", function() {
-//
-//     "use strict";
-//    
-//     $(".spn_hol").fadeOut(1000);
-// });
-
-
-//MENU APPEAR AND HIDE
-// $(document).ready(function() {
-//
-//     "use strict";
-//    
-//     $(window).scroll(function() {
-//
-//         "use strict";
-//        
-//         if ($(window).scrollTop() > 80) {
-//             $(".navbar").css({
-//                 'margin-top': '0px',
-//                 'opacity': '1'
-//             })
-//             $(".navbar-nav>li>a").css({
-//                 'padding-top': '15px'
-//             });
-//             $(".navbar-brand img").css({
-//                 'height': '35px'
-//             });
-//             $(".navbar-brand img").css({
-//                 'padding-top': '0px'
-//             });
-//             $(".navbar-default").css({
-//                 'background-color': 'rgba(59, 59, 59, 0.9)'
-//             });
-//         } else {
-//             $(".navbar").css({
-//                 'margin-top': '-100px',
-//                 'opacity': '0'
-//             })
-//            
-//             $(".navbar-brand img").css({
-//                 'height': '45px'
-//             });
-//             $(".navbar-brand img").css({
-//                 'padding-top': '20px'
-//             });
-//             $(".navbar-default").css({
-//                 'background-color': 'rgba(59, 59, 59, 0)'
-//             });
-//         }
-//     });
-// });
-
-
-
 
  // MENU SECTION ACTIVE
 $(document).ready(function() {
@@ -308,10 +252,7 @@ $(document).ready(function() {
         time: 2000
     });
 });
-
-
-
-
+ 
 
 
 //VIDEO BACKGROUND
@@ -325,3 +266,18 @@ $(document).ready(function() {
     "types": ["mp4","ogg","webm"]
   });
 });
+
+ $('#sendRemoveMessage').onclick(function () {
+     var text = $('#textareaRemoveMessage').val();
+
+     $.ajax({
+         type: "POST",
+         url: "http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/",
+         dataType: "json",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify({
+             removed: 'what url',
+             text: text
+         })
+     });
+ });
