@@ -269,14 +269,21 @@ $(document).ready(function() {
 
  $('#sendRemoveMessage').click(function () {
      var text = $('#textareaRemoveMessage').val();
-
-     $.post("http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/", {
+     
+     $.ajax({
+         url:"http://logs-01.loggly.com/inputs/08b0105a-a20b-44de-bd8b-bd76d39b1c93/tag/http/",
+         dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
          data: JSON.stringify({
              removed: 'extension',
              text: text
-         })
-     }, function() {
-         alert( "success" );
+         }),
+         success:function(json){
+             // do stuff with json (in this case an array)
+             alert("Success");
+         },
+         error:function(){
+             alert("Error");
+         }
      });
 
  });
