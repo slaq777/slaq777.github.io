@@ -180,21 +180,15 @@
         </div>
         <div class="container" id="hqa">
             <div class="row col-md-12" style="margin-top: 50px">
-                <div id="hypercomments_widget"></div>
-                <script type="text/javascript">
-                    _hcwp = window._hcwp || [];
-                    _hcwp.push({widget:"Stream", widget_id: 100303});
-                    (function() {
-                        if("HC_LOAD_INIT" in window)return;
-                        HC_LOAD_INIT = true;
-                        var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-                        var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-                        hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/100303/"+lang+"/widget.js";
-                        var s = document.getElementsByTagName("script")[0];
-                        s.parentNode.insertBefore(hcc, s.nextSibling);
-                    })();
-                </script>
-                <a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.1&appId=1528247934152163&autoLogAppEvents=1';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="20"></div>
             </div>
         </div>
         
